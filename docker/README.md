@@ -53,7 +53,7 @@ wget https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/main/src/Ray.B
 wget https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/main/docker/sample/docker-compose.yml
 
 # 启动
-docker compose up -d
+docker-compose up -d
 
 # 查看启动日志
 docker logs -f bilibili_tool_pro
